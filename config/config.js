@@ -53,32 +53,32 @@ let config = {
 			module: "clock",
 			position: "top_left"
 		},
-		{
-			module: "calendar",
-			header: "US Holidays",
-			position: "top_left",
-			config: {
-				calendars: [
-					{
-						fetchInterval: 7 * 24 * 60 * 60 * 1000,
-						symbol: "calendar-check",
-						url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
-					}
-				]
-			}
-		},
-		{
-			module: "compliments",
-			position: "lower_third"
-		},
+		// {
+		// 	module: "calendar",
+		// 	header: "US Holidays",
+		// 	position: "top_left",
+		// 	config: {
+		// 		calendars: [
+		// 			{
+		// 				fetchInterval: 7 * 24 * 60 * 60 * 1000,
+		// 				symbol: "calendar-check",
+		// 				url: "https://ics.calendarlabs.com/76/mm3137/US_Holidays.ics"
+		// 			}
+		// 		]
+		// 	}
+		// },
+		// {
+		// 	module: "compliments",
+		// 	position: "lower_third"
+		// },
 		{
 			module: "weather",
 			position: "top_right",
 			config: {
 				weatherProvider: "openmeteo",
 				type: "current",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 40.317,
+				lon: -3.85
 			}
 		},
 		{
@@ -88,8 +88,8 @@ let config = {
 			config: {
 				weatherProvider: "openmeteo",
 				type: "forecast",
-				lat: 40.776676,
-				lon: -73.971321
+				lat: 40.317,
+				lon: -3.85
 			}
 		},
 		{
@@ -98,8 +98,8 @@ let config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+						title: "Feeds RSS",
+						url: "https://rss.app/feeds/_RXZaNbESR4TS8XTr.xml"
 					}
 				],
 				showSourceTitle: true,
